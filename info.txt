@@ -1,0 +1,9 @@
+1) Find middle of two numbers (left & right)  ->  left + (right - left)/2.
+    -This helps in removing integer overflow when we do left + right in (left + right)/2 in JAVA.
+    -In case of Javascript (left+right)/2 gives a value with decimal points so it needs to be Math.floor().
+
+2) Find a number is perfect square or not ->
+    - In JS ( x ** y ) operator is used for x to the power y so using that x to the power 1/2 will give
+        square root without using square root function. [  (num **(1/2)) % 1==0;  ]
+    - Can also use binary search for searching.
+    - In Java : Math.floor(Math.pow(num,0.5)) == Math.pow(num,0.5)
