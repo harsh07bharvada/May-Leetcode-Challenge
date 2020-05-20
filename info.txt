@@ -7,3 +7,9 @@
         square root without using square root function. [  (num **(1/2)) % 1==0;  ]
     - Can also use binary search for searching.
     - In Java : Math.floor(Math.pow(num,0.5)) == Math.pow(num,0.5)
+
+3) Arrays.from() in Javascript accepts first as iterable object which can be an array or object and 
+    second is the function for each iterable.
+    So :
+    Arrays.from({ length : 26 }, x => 0 ); returns an array of 26 elements all 0 . second arguement returns 0 for each.
+    There is another way to to do this- new Array(26).fill(0);
