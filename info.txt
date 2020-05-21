@@ -13,3 +13,10 @@
     So :
     Arrays.from({ length : 26 }, x => 0 ); returns an array of 26 elements all 0 . second arguement returns 0 for each.
     There is another way to to do this- new Array(26).fill(0);
+
+4) Finding kth smallest element should aways point to heaps or in this case inorder traversal as inorder traversal is 
+    left root right so it will give the whole tree in O(n) in a ascending sorted order. then finding the k-1th element 
+    gives the kth smallest element. This inorder traversal can be done using recursion.
+
+
+
