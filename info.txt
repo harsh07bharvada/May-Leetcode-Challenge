@@ -19,4 +19,5 @@
     gives the kth smallest element. This inorder traversal can be done using recursion.
 
 
+5) Convert integer to binary string in JS using .toString(2)
 
